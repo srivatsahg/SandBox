@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         switch (item.getItemId()) {
             // When the user clicks START ALARM, set the alarm.
             case R.id.start_action:
-                alarm.setAlarm(this);
+                alarm.setAlarmOneMore(this);
                 return true;
             // When the user clicks CANCEL ALARM, cancel the alarm. 
             case R.id.cancel_action:
