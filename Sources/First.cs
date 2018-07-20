@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
                 return true;
             // When the user clicks CANCEL ALARM, cancel the alarm. 
             case R.id.cancel_action:
-                alarm.cancelAlarmBranch(this);
+                alarm.cancelAlarmMaster(this);
                 return true;
         }
         return false;
