@@ -6,3 +6,7 @@ Create
 Stage
 Commit
 Push
+
+# Merge and Rebase
+
+Juri Sturm
